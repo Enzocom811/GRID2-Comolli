@@ -1,0 +1,25 @@
+/* Nesting del Navbar */
+nav {
+  grid-area: nav;
+  background-color: white;
+  margin: 0 0 0 10px;
+  border: 2px solid black;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+nav ul li {
+  padding: 5px;
+  margin: 10px 0 0 5px;
+  list-style: inside;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: overline;
+}
+
+/*# sourceMappingURL=style.css.map */
